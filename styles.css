@@ -12,6 +12,15 @@
 *:hover {
   transform: translate(1.2);
 }
+div {
+  font-size: 2em;
+  transition: all .3s ease-out;
+}
+
+div:hover {
+  transform: translate(1.1);
+}
+}
 .header {
   background: dodgerblue;
   color: royalblue;

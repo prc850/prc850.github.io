@@ -24,7 +24,7 @@ div:hover {
   background: dodgerblue;
   color: royalblue;
   border: 2px solid royalblue;
-  font-size: 54px;
+  font-size: 3em;
 }
 .main {
   background: orange;

@@ -2,8 +2,8 @@
 <html lang="en-US">
   <?php
     // define variables and set to empty values
-$nameErr = $emailErr = $genderErr = $websiteErr = "";
-$name = $email = $gender = $comment = $website = "";
+$nameErr = $emailornumbErr = $genderErr = "";
+$name = $emailornumb = $gender = $comment = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {

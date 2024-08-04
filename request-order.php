@@ -2,10 +2,10 @@
 <html lang="en-US">
   <?php
     // define variables and set to empty values
-$nameErr = $emailornumbErr = $genderErr = "";
-$name = $emailornumb = $gender = $comment = "";
+  $nameErr = $commsErr = $orderErr = $idErr = "";
+  $name = $comms = $order = $id = "";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
     $nameErr = "Name is required";
   } else {
